@@ -111,7 +111,7 @@ body {
     max-width: 380px; }
   .section-about-us .section-about-us-title {
     font-size: 60px;
-    font-weight: 900;
+    font-weight: 600;
     margin: 0;
     color: #f5f8ff; }
   .section-about-us .section-about-us-text {
@@ -155,16 +155,21 @@ body {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row; }
+  .section-gallery .column-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column; }
   .section-gallery img {
     margin: 4px 8px; }
   .section-gallery .one {
-    height: 350px; }
+    height: 350px;
+    box-shadow: 0 20px 30px rgba(38, 38, 38, 0.3); }
   .section-gallery .two {
-    height: 155px;
-    position: relative; }
+    height: 168px;
+    width: 218px; }
   .section-gallery .three {
-    height: 155px;
-    position: absolute; }
+    height: 168px;
+    width: 218px; }
   .section-gallery .four {
     height: 250px; }
   .section-gallery .five {

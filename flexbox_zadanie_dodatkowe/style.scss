@@ -155,7 +155,7 @@ body {
 
   .section-about-us-title {
     font-size: 60px;
-    font-weight: 900;
+    font-weight: 600;
     margin: 0;
     color: $bright-color;
   }
@@ -218,20 +218,26 @@ body {
     flex-wrap: wrap;
     flex-direction: row;
   }
-  img{
+  .column-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  img {
     margin: 4px 8px;
   }
   .one {
     height: 350px;
-
+    box-shadow: 0 20px 30px transparentize($dark-color, 0.7);
   }
   .two {
-    height: 155px;
-    position: relative;
+    height: 168px;
+    width: 218px;
   }
   .three {
-    height: 155px;
-    position: absolute;
+    height: 168px;
+    width: 218px;
+
   }
   .four {
     height: 250px;
